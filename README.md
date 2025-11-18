@@ -40,7 +40,7 @@ photometry-video-behavior-alignment/
 └── README.md                 Project overview and instructions
 
 
----
+```
 
 ## Workflow
 ```text
