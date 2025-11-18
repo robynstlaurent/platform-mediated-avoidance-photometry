@@ -16,6 +16,7 @@ It includes example code for:
 ---
 
 ## Project Structure
+```text
 photometry-video-behavior-alignment/
 ├── code/                     MATLAB analysis scripts
 │   ├── get_fNames_AA.m       Choose cohort to analyze (list of filenames)
