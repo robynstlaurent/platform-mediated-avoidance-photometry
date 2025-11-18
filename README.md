@@ -13,7 +13,7 @@ It includes example code for:
 - Aligning asynchronous data streams onto a unified timeline  
 - Producing analysis-ready signals and visualizations  
 ![Platform-mediated avoidance procedure](figures/PMA_Procedure.png)
-![Platform-mediated avoidance box and tracking](figures/DeepLabCut_example.png)
+![Platform-mediated avoidance box and tracking](figures/DeepLabCut_Example.png)
 
 ---
 
