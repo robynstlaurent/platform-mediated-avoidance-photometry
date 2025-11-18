@@ -15,26 +15,46 @@ It includes example code for:
 
 ---
 
-## 🔧 Project Structure
-photometry-video-behavior-alignment/
-├── code/
-│   ├── get_fNames_AA.m
-│   ├── TDT2MAT.m
-│   ├── Phot2PhotoSig.m
-│   ├── batch_platformTimev3.m
-│   ├── load_AA_data.m
-│   ├── batch_TonexPhot.m
-│   ├── batch_ShockxPhot.m
-│   └── batch_RewardxPhot.m
-├── data_example/
-│   ├── fp_example.csv
-│   ├── dlc_example.csv
-│   └── behavior_states.csv
-├── figures/
-│   ├── photometry_trace.png
-│   ├── dlc_aligned.png
-│   └── behavior_overlay.png
-├── .gitignore
-├── LICENSE
-└── README.md
+## Project Structure
+Project Structure
+
+code/
+
+get_fNames_AA.m – Choose cohort to analyze
+
+TDT2MAT.m – Convert raw TDT data to MATLAB structure
+
+Phot2PhotoSig.m – Clean and analyze photometry signal
+
+batch_platformTimev3.m – Align timestamps across data streams
+
+load_AA_data.m – Load photometry, DLC, and behavioral data
+
+batch_TonexPhot.m – Analyze and generate figures for tone events
+
+batch_ShockxPhot.m – Analyze and generate figures for shock events
+
+batch_RewardxPhot.m – Analyze and generate figures for reward events
+
+data_example/
+
+fp_example.csv – Example photometry signal
+
+dlc_example.csv – Example DeepLabCut pose output
+
+behavior_states.csv – Example behavioral state timestamps
+
+figures/
+
+photometry_trace.png
+
+dlc_aligned.png
+
+behavior_overlay.png
+
+.gitignore – Files Git should ignore
+
+LICENSE – MIT License
+
+README.md – Project overview and instructions
 
