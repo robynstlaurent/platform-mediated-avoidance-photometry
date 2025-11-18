@@ -38,3 +38,39 @@ photometry-video-behavior-alignment/
 ├── .gitignore                Specifies files Git should ignore
 ├── LICENSE                   MIT License
 └── README.md                 Project overview and instructions
+
+
+---
+
+## Workflow
+```text
+        ┌───────────────────────────┐
+        │      Photometry (TDT)     │
+        │  → Motion artifact removal │
+        │  → Isosbestic correction  │
+        └────────────┬─────────────┘
+                     │
+                     │
+        ┌────────────┴─────────────┐
+        │       Video Data          │
+        │  → DeepLabCut pose coords │
+        │  → Operant box landmarks  │
+        └────────────┬─────────────┘
+                     │
+                     │
+        ┌────────────┴─────────────┐
+        │ Microcontroller Outputs   │
+        │  → Video timestamps       │
+        │  → Behavioral events      │
+        └────────────┬─────────────┘
+                     │
+                     ▼
+           ┌───────────────────┐
+           │  Data Alignment   │
+           │ (all 3 streams)  │
+           └─────────┬─────────┘
+                     ▼
+           ┌───────────────────┐
+           │  Signal Analysis  │
+           │  & Figure Output  │
+           └───────────────────┘
