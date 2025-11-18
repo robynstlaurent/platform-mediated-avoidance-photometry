@@ -38,4 +38,3 @@ photometry-video-behavior-alignment/
 ├── LICENSE                   MIT License
 └── README.md                 Project overview and instructions
 
-
