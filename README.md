@@ -12,6 +12,8 @@ It includes example code for:
 - Incorporating behavioral state information collected using StateScript from SpikeGadgets (https://spikegadgets.com/products/statescript/) 
 - Aligning asynchronous data streams onto a unified timeline  
 - Producing analysis-ready signals and visualizations  
+![Platform-mediated avoidance procedure](figures/PMA_Procedure.png)
+![Platform-mediated avoidance box and tracking](figures/DeepLabCut_example.png)
 
 ---
 
@@ -79,3 +81,4 @@ photometry-video-behavior-alignment/
 ## Example Output
 The following figure shows the photometry signal aligned to a behavioral event, averaged across mice:
 ![Photometry output example](figures/Example_TonexPhot_output.png)
+![Photometry output example](figures/Example_RewardxPhot_output.png)
