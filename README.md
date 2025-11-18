@@ -74,3 +74,8 @@ photometry-video-behavior-alignment/
            │  Signal Analysis  │
            │  & Figure Output  │
            └───────────────────┘
+
+```
+## Example Output
+The following figure shows the photometry signal aligned to a behavioral event, averaged across mice:
+![Photometry output example](figures/Example_TonexPhot_output.png)
