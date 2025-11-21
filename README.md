@@ -21,7 +21,7 @@ It includes example code for:
 ```text
 photometry-video-behavior-alignment/
 ├── code/                     MATLAB analysis scripts
-│   ├── get_fNames_AA.m       Choose cohort to analyze (list of filenames)
+│   ├── getfNames_phot.m       Choose cohort to analyze (list of filenames)
 │   ├── TDT2MAT.m             Batch convert raw TDT to MATLAB structure
 │   ├── Phot2PhotoSig.m       Batch analyze photometry signal and remove artifacts
 │   ├── batch_platformTimev3.m Align timestamps across data streams
